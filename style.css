@@ -1,0 +1,122 @@
+/*線を引く*/
+.h1-1{
+    text-align: center;
+}
+.h1-1::after {
+    content: '';
+    display: block;
+    width: 150px;
+    height: 3px;
+    background-color: #0bd;
+    margin: 0 auto;
+}
+
+.h2-1{
+    text-align: center;
+}
+.h2-1::after {
+    content: '';
+    display: block;
+    width: 200px;
+    height: 3px;
+    background-color: #00db25;
+    margin: 0 auto;
+}
+
+.h3-1{
+    text-align: center;
+}
+.h3-1::after {
+    content: '';
+    display: block;
+    width: 250px;
+    height: 3px;
+    background-color: #db0075;
+    margin: 0 auto;
+}
+
+.sample {
+padding: 0.5em 1em;
+margin: 2em 0;
+font-weight: bold;
+border: solid 2px #000000;
+border-radius: 10px;/*角の丸み*/
+}
+.div0 {
+margin: 100; 
+padding: 100;
+}
+
+.div1 {
+margin: 100; 
+padding: 100;
+}
+
+.div2 {
+margin: 100; 
+padding: 100;
+}
+
+.div3 {
+margin: 100; 
+padding: 100;
+}
+
+.div5 {
+margin: 10; 
+padding: 10;
+}
+
+/*背景*/
+body{
+background-image: url(kabekami.png);
+}
+.sample{
+background-color: #1de9ed;
+margin-top: 0px;
+margin-left: 10px;
+margin-right: 30px;
+
+}
+
+.div0{
+background-color: #fff799
+}
+
+.div1{
+background-color: #eaf6fd;
+}
+
+.div2{
+background-color: #e2eba3;
+}
+
+.div3{
+background-color: #f7c6bd;
+}
+.div5{
+background-color: #c5b2d6;
+}
+
+/*店舗情報・地図*/
+#location{
+padding:4% 0;
+}
+#location .wrapper{
+display: flex;
+justify-content: space-between;
+}
+.location-info{
+width: 50%;
+}
+.location-info p{
+padding: 12px 10px;
+}
+.location-map{
+width: 80%;
+}
+
+/*iframe*/
+iframe{
+width: 100%;
+}
